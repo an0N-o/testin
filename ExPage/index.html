@@ -7,8 +7,6 @@
 
 <head>
 
-    <!--- basic page needs
-    ================================================== -->
     <meta charset="utf-8">
     <title> XD </title>
     <meta name="description" content="FarmsnFarmers Foundation">
@@ -58,7 +56,7 @@
                 <h3>Navigation</h3>
                 
                 <ul class="header-nav__list">
-                    <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
+                    <li class="current"><a onclick="goBack()" class="smoothscroll"  href="#home" title="home">Home</a></li>
                     <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
                     <li><a class="smoothscroll"  href="#services" title="services">Works</a></li>
                     <li><a class="smoothscroll"  href="#works" title="works">Gallery</a></li>
@@ -93,13 +91,62 @@
         </nav>  <!-- end header-nav -->
 
         <a class="header-menu-toggle" href="#0">
-            <span class="header-menu-text">Menu</span>
+            <span class="header-menu-text">here!</span>
             <span class="header-menu-icon"></span>
         </a>
 
     </header> <!-- end s-header -->
 
 	
+	
+    <!-- home
+    ================================================== -->
+    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+
+        <div class="overlay"></div>
+        <div class="shadow-overlay"></div>
+
+        <div class="home-content">
+
+            <div class="row home-content__main">
+
+                <h3>fnf</h3>
+
+                <h1>       
+                    just<br>
+                    another <br>
+                    page
+                </h1>
+
+            <div class="home-content__scroll">
+                <a href="#about" class="scroll-link smoothscroll">
+                    <span>Scroll Down</span>
+                </a>
+            </div>
+
+            <div class="home-content__line"></div>
+
+        </div> <!-- end home-content -->
+
+
+        <ul class="home-social">
+            <li>
+                <a href="#0"><i class="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a>
+            </li>
+            <li>
+                <a href="#0"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
+            </li>
+            <li>
+                <a href="#0"><i class="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+            </li>
+         
+        </ul> 
+        <!-- end home-social -->
+
+    </section> <!-- end s-home -->
+
+	
+
 	
 
     <!-- about
@@ -129,30 +176,27 @@
         <div class="row about-stats stats block-1-4 block-m-1-2 block-mob-full" data-aos="fade-up">
                 
             <div class="col-block stats__col ">
-                <div class="stats__count">0.007</div>
+                <div class="stats__count">0.7</div>
                 <h5>test</h5>
 				<p>lel</br> ._.	</p>
             </div>
             <div class="col-block stats__col">
                 <div class="stats__count">100</div>
-                <h5>fastest</h5>
+                <h5>same</h5>
 				<p>100 </br> -,- </p>
 			</div>
             <div class="col-block stats__col">
                 <div class="stats__count">1000</div>
-                <h5>faster</h5>
+                <h5>same</h5>
 				<p> 1000 </br>testin</p>
             </div>
             <div class="col-block stats__col">
                 <div class="stats__count">10000</div>
-                <h5>fast?</h5>
+                <h5>smae</h5>
 				<p>1 0 0 0 0 </br> ... </p>
             </div>
-		
+		<div class="about-content__line"></div>
         </div> <!-- end about-stats -->
-
-        <div class="about__line"></div>
-
     </section> <!-- end s-about -->
 
   
@@ -168,52 +212,16 @@
 
             <div class="row home-content__main">
 
-                <h3>Welcome to FarmsnFarmers</h3>
+                <h3>fnf</h3>
 
                 <h1>       
-                    FarmsnFarmers  is an<br>
-                    award-winning <br>
-                    non-government,<br>
-                    non-profit organisation.
+                    just<br>
+                    another <br>
+					clean <br>
+                    page<br>
                 </h1>
 
-                <div class="home-content__buttons">
-                    <a href="#contact" class="smoothscroll btn btn--stroke">
-                        Join Us Now
-                    </a>
-                    <a href="#about" class="smoothscroll btn btn--stroke">
-                        More About Us
-                    </a>
-                </div>
-
-            </div>
-
-            <div class="home-content__scroll">
-                <a href="#about" class="scroll-link smoothscroll">
-                    <span>Scroll Down</span>
-                </a>
-            </div>
-
-            <div class="home-content__line"></div>
-
-        </div> <!-- end home-content -->
-
-
-        <ul class="home-social">
-            <li>
-                <a href="#0"><i class="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a>
-            </li>
-            <li>
-                <a href="#0"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
-            </li>
-            <li>
-                <a href="#0"><i class="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
-            </li>
-         
-        </ul> 
-        <!-- end home-social -->
-
-    </section> <!-- end s-home -->
+    </section> 
 
 	
 
@@ -293,50 +301,6 @@
         </div> <!-- end footer-bottom -->
 
     </footer> <!-- end footer -->
-
-
-    <!-- photoswipe background
-    ================================================== -->
-    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
-
-        <div class="pswp__bg"></div>
-        <div class="pswp__scroll-wrap">
-
-            <div class="pswp__container">
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-            </div>
-
-            <div class="pswp__ui pswp__ui--hidden">
-                <div class="pswp__top-bar">
-                    <div class="pswp__counter"></div>
-					<button class="pswp__button pswp__button--close" title="Close (Esc)"></button> 
-					<button class="pswp__button pswp__button--share" title="Share"></button> 
-					<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> 
-					<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-                    <div class="pswp__preloader">
-                        <div class="pswp__preloader__icn">
-                            <div class="pswp__preloader__cut">
-                                <div class="pswp__preloader__donut"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                    <div class="pswp__share-tooltip"></div>
-                </div>
-				<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> 
-				<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
-                <div class="pswp__caption">
-                    <div class="pswp__caption__center"></div>
-                </div>
-            </div>
-
-        </div>
-
-    </div> <!-- end photoSwipe background -->
-
 
     <!-- preloader
     ================================================== -->
